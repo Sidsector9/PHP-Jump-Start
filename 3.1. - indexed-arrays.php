@@ -34,5 +34,27 @@ $an_indexed_array = array( 'A string', 496, true, null );
 // 1 - You have a value of type `number`
 // 2 - You have a value of type `boolean`
 // 3 - You have a value of `null`
-
 // [`null` values don't have a datatype, they're just...null]
+
+
+
+
+// Now,
+// Since you know the NAME of the array, you can get the values
+// from various locations.
+// So if I echo like this:
+echo $an_indexed_array[0];
+// This will print `A string`
+echo $an_indexed_array[1];
+// This will print `496`
+echo $an_indexed_array[2];
+// This will print `1` [True is evaluated to 1]
+echo $an_indexed_array[3];
+// This won't print anything because `null` is nothing.
+echo $an_indexed_array[4];
+// ----------------------------------------------------------------
+// Undefined offset: 4 in /var/www/example.com/index.php on line 55
+// ----------------------------------------------------------------
+// What is the cause of this error?
+// - We tried to access an array with location `4` which doesn't even exist!
+// - The last location index of our array is `3`.
