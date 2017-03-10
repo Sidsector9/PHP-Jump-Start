@@ -11,7 +11,7 @@
  *
  * Are there any naming conventions for a variable?
  * - Yes, a variable must start with a `$` and
- * - should contain a-zA-Z or _
+ * - should contain a-zA-Z0-9 or _
  *
  * Does storing value in variable equate to storing in
  * database?
