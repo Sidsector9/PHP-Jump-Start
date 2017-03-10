@@ -7,7 +7,7 @@
  * - To store value.
  *
  * What kind of value?
- * - A number, string, reference or nothing at all!
+ * - A number, string, arrays, reference or nothing at all!
  *
  * Are there any naming conventions for a variable?
  * - Yes, a variable must start with a `$` and
