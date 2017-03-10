@@ -27,7 +27,7 @@ $some_other_other_variable_lmao = 3.14;
 $this_is_an_array = array();
 $this_is_also_an_array = [];
 // We have created 2 empty arrays.
-// It is advisable to use the first method to declare an array.
+// It is advisable to use the first method to *declare* an array.
 // The second method is comparatively new one and not supported
 // by older versions of PHP.
 // Which older versions you ask?
