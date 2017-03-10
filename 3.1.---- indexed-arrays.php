@@ -9,6 +9,6 @@
 $an_indexed_array = array( 'First', 'Second', 'Third' );
 
 // --------------------------------
-// | 'First' | 'Second' | 'Third' |		<--- Values
+// | 'First' | 'Second' | 'Third' |     <--- Values
 // --------------------------------
-//		0		   1	 	 2			<--- Location index
+//      0          1         2          <--- Location index
