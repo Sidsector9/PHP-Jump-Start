@@ -49,9 +49,9 @@ $variable_with_null = null;
 $try_to_echo_me;
 echo $try_to_echo_me;
 // Whoops!
-//---------------------------------------------------------------------------------------
-// Notice: Undefined variable: try_to_echo_me in /var/www/example.com/index.php on line 39
-//---------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
+// Notice: Undefined variable: try_to_echo_me in /var/www/example.com/index.php on line 50
+//----------------------------------------------------------------------------------------
 // Well it's not an **error**, it's just a **notice**. PHP is telling you that you're
 // trying to echo a variable which has no value.
 //
