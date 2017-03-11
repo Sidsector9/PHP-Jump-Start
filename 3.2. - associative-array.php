@@ -79,9 +79,9 @@ $an_associative_array = array(
 
 
 $an_associative_array = array(
-		   'some value',		// key: 0
+	       'some value',		// key: 0
 	       'other value',		// key: 1
-	121	=> 'sample',			// key: 121
+	121 => 'sample',			// key: 121
 	       'ok we should stop', // key: 122
 	       'last one'			// key: 123
 );
