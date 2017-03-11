@@ -35,7 +35,7 @@ $some_variable;
 
 $some_other_variable = 42;
 // Now I have some value stored within me. It is of
-// type number. It could be string too or even null!
+// type number. It could be a string too or even null!
 
 
 

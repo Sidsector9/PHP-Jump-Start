@@ -1,7 +1,7 @@
 <?php
 /**
- * This script is going to show how can store different values
- * in the variable.
+ * This script is going to show how you can store different 
+ * values in the variable.
  */
 
 
@@ -11,14 +11,15 @@ $stores_number = 3.14;
 // [Note: The above variable `$stores_number` has been initialized
 // twice. First with value `42` and next with value `3.14`. The
 // variable will contain the value with which it was initialized
-// latest.i.e; `stores_number` now contains `3.14`]
+// latest.i.e; now `stores_number` contains `3.14`]
 
 
 
 $stores_string = 'This is a string'; // NOWDOC
 $stores_string = "This is also a string"; // HEREDOC
 // Pay attention to the use of single and double quotes.
-// "Nowdocs are to single-quoted strings what heredocs are to double-quoted strings."
+// "Nowdocs are to single-quoted strings what heredocs are 
+// to double-quoted strings."
 
 
 
